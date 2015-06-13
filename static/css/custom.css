@@ -1,0 +1,136 @@
+body{
+	/*background-color: #272B30;*/
+  background-image: url('/static/images/background/dark-wood-panels-pr.jpg');
+  padding-top:0px;
+}
+
+/* navbar */
+.navbar{
+	background-color: #AD1D28;
+  	/*border-color: #911821;*/
+  	border: none;
+}
+
+p{
+	color: #C8C8C8;
+}
+
+#test{
+	color: orange;
+}
+
+
+
+.nav-link-text{color:#E18A07;}
+
+
+
+.header-address-text{
+    color:#E18A07;
+}
+
+
+.nav-link{
+    color:#E18A07;
+    font-weight:800;
+    display:inline;
+}
+.nav-link-spacer{
+    padding-left:10px;
+    padding-right:10px;
+    color:#E18A07;
+    font-weight:800;
+    display:inline;
+}
+
+
+
+/* title */
+.navbar-default .navbar-brand {
+    color: orange;
+    font-family: Test;
+    font-size: 30pt;
+}
+.navbar-default .navbar-brand-sml {
+    color: orange;
+    font-family: Test;
+    font-size: 28pt;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #5E5E5E;
+}
+/* non-active link */
+.navbar-default .navbar-nav > li > a {
+    color: orange;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: blue;
+}
+/* active link */
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: white;
+    background-color: #AD1D28;
+}
+/*.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #D5D5D5;
+}*/
+
+
+
+
+.jumbotron {
+  padding: 0px;
+  margin-bottom: 0px;
+  color: inherit;
+  background-color: inherit;
+}
+
+
+
+
+@font-face {
+    font-family: Test;
+    
+    /*src: url(http://www.font-face.com/fonts/delicious/Delicious-Roman.otf);*/
+    src: url(/static/fonts/AlexBrush-Regular.ttf);
+    
+    font-weight:400;
+}
+
+/*@font-face {
+  font-family: 'Graublau Web';
+  src: url('GraublauWeb.eot');
+  src: local('Graublau Web Regular'), local('Graublau Web'),
+    url("GraublauWeb.woff") format("woff"),
+    url("GraublauWeb.otf") format("opentype"),
+    url("GraublauWeb.svg#grablau") format("svg");
+}*/
+
+
+
+/*Fixes carousel banner left alignment issue*/
+.carousel-inner > .item > img { margin: 0 auto; }
+
+
+
+
+
+/*#grad {
+   /* Safari 4-5, Chrome 1-9 * background: -webkit-gradient(linear, left top, right top, from(#1a82f7), to(#AD1D28));
+   /* Safari 5.1, Chrome 10+ * background: -webkit-linear-gradient(left, #2F2727, #AD1D28);
+   /* Firefox 3.6+ * background: -moz-linear-gradient(left, #2F2727, #AD1D28);
+   /* IE 10 * background: -ms-linear-gradient(left, #2F2727, #AD1D28);
+   /* Opera 11.10+ * background: -o-linear-gradient(left, #2F2727, #AD1D28);
+
+       background: linear-gradient(orange, red) repeat-x;
+    display: inline-block;
+    padding: 20px;
+}*/
