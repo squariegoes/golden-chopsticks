@@ -1,3 +1,12 @@
+/* for setting max container width */
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+
+
+
 body{
 	/*background-color: #272B30;*/
   background-image: url('/static/images/background/dark-wood-panels-pr.jpg');
